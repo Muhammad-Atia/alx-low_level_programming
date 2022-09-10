@@ -4,7 +4,7 @@
  * main - print using fprintf
  *
  * Description: prints error
- * 
+ *
  *
  * Return: Always 0 (Success)
  */
