@@ -10,6 +10,10 @@
  */
 int main(void)
 {
-  PRINTSIZE(int);
-  return (0);
+PRINTSIZE(char);
+PRINTSIZE(int);
+PRINTSIZE(long int);
+PRINTSIZE(long long int);
+PRINTSIZE(float);
+return (0);
 }
