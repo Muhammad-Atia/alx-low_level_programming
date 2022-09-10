@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PRINTSIZE(Type) printf("Size of a " #Type ":", sizeof(Type))
+
 /**
  * main - Entry point
  *
@@ -8,12 +8,14 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-PRINTSIZE(char);
-PRINTSIZE(int);
-PRINTSIZE(long int);
-PRINTSIZE(long long int);
-PRINTSIZE(float);
+printf ("sizeof int is %zu\n", sizeof(char));
+printf ("sizeof int is %zu\n", sizeof(int));
+printf ("sizeof int is %zu\n", sizeof(long int));
+printf ("sizeof int is %zu\n", sizeof(long long int));
+printf ("sizeof int is %zu\n", sizeof(float));
+
 return (0);
 }
